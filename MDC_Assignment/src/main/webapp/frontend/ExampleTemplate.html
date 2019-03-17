@@ -1,0 +1,77 @@
+<!--
+  ~ Copyright 2000-2017 Vaadin Ltd.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License"); you may not
+  ~ use this file except in compliance with the License. You may obtain a copy of
+  ~ the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+  ~ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+  ~ License for the specific language governing permissions and limitations under
+  ~ the License.
+  -->
+
+<!-- Dependency resources -->
+<link rel="import" href="bower_components/polymer/polymer.html">
+<!-- Defines the example-template element -->
+<!--<dom-module id="example-template">
+    <template>
+        <span>[[message]]</span>
+    </template>
+    
+    &lt;!&ndash; Polymer boilerplate to register the example-template element &ndash;&gt;
+    <script>
+        class ExampleTemplate extends Polymer.Element {
+            static get is() {
+                return 'example-template'
+            }
+        }
+        customElements.define(ExampleTemplate.is, ExampleTemplate);
+    </script>
+</dom-module>-->
+<!--
+<dom-bind id="basic">
+    <template>
+        <iron-ajax auto url="https://demo.vaadin.com/demo-data/1.0/people?count=20" handle-as="json" last-response="{{users}}"></iron-ajax>
+
+        <vaadin-grid aria-label="Basic example" items="[[users.result]]" column-reordering-allowed multi-sort>
+
+            <vaadin-grid-selection-column auto-select></vaadin-grid-selection-column>
+
+            <vaadin-grid-column width="9em">
+                <template class="header">
+                    <vaadin-grid-sorter path="id">Id</vaadin-grid-sorter>
+                </template>
+                <template>[[item.id]]</template>
+                <template class="footer">Id</template>
+            </vaadin-grid-column>
+
+            <vaadin-grid-column width="9em">
+                <template class="header">
+                    <vaadin-grid-sorter path="userId">User Id</vaadin-grid-sorter>
+                </template>
+                <template>[[item.userId]]</template>
+                <template class="footer">User Id</template>
+            </vaadin-grid-column>
+
+            <vaadin-grid-column width="15em" flex-grow="2">
+                <template class="header">
+                    <vaadin-grid-sorter path="title">Title</vaadin-grid-sorter>
+                </template>
+                <template>[[item.title]]</template>
+                <template class="footer">Title</template>
+            </vaadin-grid-column>
+            <vaadin-grid-column width="15em" flex-grow="2">
+                <template class="header">
+                    <vaadin-grid-sorter path="completed">Completed</vaadin-grid-sorter>
+                </template>
+                <template>[[item.completed]]</template>
+                <template class="footer">Completed</template>
+            </vaadin-grid-column>
+        </vaadin-grid>
+    </template>
+</dom-bind>-->
+
